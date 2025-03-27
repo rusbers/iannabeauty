@@ -7,7 +7,7 @@ export function Logo() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <title>Turbo Start</title>
+      <title>Ianna Beauty</title>
       <rect width="32" height="32" rx="16" fill="var(--card-fg-color)" />
       <path
         d="M4.68629 21.159C2.98673 19.4595 2.98673 16.704 4.68629 15.0044L12.1081 7.5826L18.2627 13.7373L10.841 21.159C9.14139 22.8586 6.38585 22.8586 4.68629 21.159Z"

@@ -12,8 +12,7 @@
     "build": "sanity build",
     "deploy": "sanity deploy",
     "type": "sanity schema extract --enforce-required-fields && sanity typegen generate",
-    "check-types": "tsc --noEmit",
-    "postinstall": "sanity exec scripts/create-data.ts --with-user-token"
+    "check-types": "tsc --noEmit"
   },
   "keywords": [
     "sanity"
@@ -30,7 +29,7 @@
     "sanity": "^3.78.1",
     "sanity-plugin-asset-source-unsplash": "^3.0.3",
     "sanity-plugin-icon-picker": "^3.3.0",
-    "sanity-plugin-media": "^3.0.1",
+    "sanity-plugin-media": "^3.0.0",
     "slugify": "^1.6.6",
     "styled-components": "^6.1.15"
   },

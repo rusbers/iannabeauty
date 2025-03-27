@@ -46,27 +46,22 @@ export function getMetaData(data: MetaDataInput): Metadata {
   });
 
   return {
-    title: `${meta.title} | Roboto Studio Demo`,
+    title: `${meta.title} | Ianna Beauty`,
     description: meta.description,
     metadataBase: new URL(baseUrl),
-    creator: "Roboto Studio Demo",
-    authors: [{ name: "Roboto" }],
+    // TODO: Add creator and authors when we have them
+    creator: "My Studio",
+    authors: [{ name: "My Studio" }],
     icons: {
       icon: `${baseUrl}/favicon.ico`,
     },
-    keywords: [
-      "roboto",
-      "studio",
-      "demo",
-      "sanity",
-      "next",
-      "react",
-      "template",
-    ],
+    // TODO: Add keywords
+    keywords: [],
     twitter: {
       card: "summary_large_image",
       images: [ogImage],
-      creator: "@studioroboto",
+      // TODO: Add creator when we have it
+      creator: "@my-studio",
       title: meta.title,
       description: meta.description,
     },
@@ -75,7 +70,7 @@ export function getMetaData(data: MetaDataInput): Metadata {
     },
     openGraph: {
       type: "website",
-      countryName: "UK",
+      countryName: "Ireland",
       description: meta.description,
       title: meta.title,
       images: [
